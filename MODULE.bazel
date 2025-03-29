@@ -1,4 +1,5 @@
 bazel_dep(name = "grpc", version = "1.71.0")
+bazel_dep(name = "abseil-cpp", version = "20240116.0")
 
 use_repo_rule("@@com_github_grpc_grpc//bazel:grpc_deps.bzl", "grpc_deps")
 use_repo_rule("@@com_github_grpc_grpc//bazel:grpc_extra_deps.bzl", "grpc_extra_deps")
